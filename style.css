@@ -4846,3 +4846,18 @@ top: inherit !important; text-align: right !important;}
   }
 }
 
+/* Keyboard focus visibility improvement */
+:focus-visible {
+  outline: 2px solid #c8102e;
+  outline-offset: 3px;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid #c8102e;
+  outline-offset: 3px;
+}
