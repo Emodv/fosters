@@ -1,0 +1,132 @@
+.template-single-content .faq-inner{padding-bottom: 27px;}
+.faq-inner{
+    padding: 0 0 127px;
+    clear: both;
+}
+.faq-title{
+    margin-bottom: 41px;
+}
+.ui-accordion.ui-widget {
+    font-family: Montserrat, sans-serif;
+    display: block;
+    width: 100%;
+    font-size: inherit;
+}
+.ui-accordion h3.ui-accordion-header {
+    background: 0 0;
+    border: 0;
+    display: block;
+    width: 100%;
+    border-radius: 0;
+    color: #051c2c;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 14px 30px 15px 0;
+    font-weight: 600;
+    margin: 0;
+    font-family: sweet-sans-pro, sans-serif;
+    letter-spacing: normal;
+}
+.ui-accordion h3.ui-accordion-header.ui-state-active,
+.ui-accordion h3.ui-accordion-header:hover {
+    color: #c8102e;
+}
+.ui-accordion h3.ui-accordion-header:before {
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    width: 100%;
+    background: #979797;
+    position: absolute;
+    -webkit-transition: height 0.35s, width 1.35s, -webkit-transform 0.35s;
+    transition: height 0.35s, width 1.35s, -webkit-transform 0.35s;
+    transition: height 0.35s, transform 0.35s, width 1.35s;
+    transition: height 0.35s, transform 0.35s, width 1.35s, -webkit-transform 0.35s;
+    display: block;
+}
+.ui-accordion h3.ui-accordion-header.ui-state-active:before{
+    background: none;
+}
+.ui-accordion h3.ui-accordion-header .ui-icon {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    text-indent: 0;
+    background: none;
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #c8102e;
+}
+.ui-accordion h3.ui-accordion-header.ui-state-active .ui-icon {
+    transform: translateY(-50%) rotate(180deg);
+}
+.ui-accordion h3.ui-accordion-header .ui-icon:before{
+    content: "\f078";
+}
+.ui-accordion div.ui-accordion-content {
+    padding: 0 0 13px;
+    border: 0;
+    width: 100%;
+    font-family: mrs-eaves-xl-serif, serif;
+    color: #051c2c;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    background: none;
+    border-bottom: 1px solid #979797;
+}
+.ui-accordion div.ui-accordion-content ul {
+    margin-bottom: 23px;
+}
+.ui-accordion div.ui-accordion-content ol{
+    margin-bottom: 23px;
+}
+.ui-accordion div.ui-accordion-content ol > li:before{
+    color: #00A7B5;
+}
+.accordion-list h3{
+    color: #051c2c;
+    font-weight: 600;
+    letter-spacing: normal;
+}
+#mainContent .accordion-list p a{
+    text-decoration: none;
+    color: #00A7B5;
+}
+#mainContent .accordion-list p a:hover{
+    color: #051c2c;
+}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px) {
+    .foster-faq .container{max-width: 940px;}
+}
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1300px){
+    .expertise-faq-section .container{max-width: 1146px;}
+    .expertise-faq-section .faq-inner{max-width: 940px;}
+}
+@media only screen and (min-width: 1024px){
+    .expertise-faq-section .faq-inner{padding-bottom: 121px;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .foster-faq .container{max-width: 100%;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .expertise-faq-section .faq-inner{padding: 68px 0 85px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .expertise-faq-section .faq-inner{padding: 68px 0 82px;}
+	.template-single-content .container{padding: 0;}
+}

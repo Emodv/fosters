@@ -1,0 +1,113 @@
+﻿
+
+/*-- OUR PEOPLE PROFILE PAGE CSS STARTS HERE --*/
+/* Header */
+.single-people #main-header {background: #ffffff;}
+.people-profile-banner {background-color: #051c2c; float: left; width: 100%; padding:83px 0; color: #fff; font-family: sweet-sans-pro, sans-serif;}
+.people-profile-main { justify-content: space-between;}
+.people-profile-left {width: 47%;}
+.people-profile-right {width: 47%; position: relative;}
+.people-profile-right .profile-thumb { position: absolute; bottom:-144px; right: 0; width: 460px; height: 468px;}
+.people-profile-right .profile-thumb:after {content: ""; background:url("../images/profile-Shadow.png") 0 0 no-repeat; display: block; position: absolute; bottom: -11px; width:463px; height:23px; left: 0; right: 0; margin: auto; z-index: -1; background-size: 463px auto;}
+.people-profile-right .profile-thumb img {border-radius: 50%; width: 100%; height: 100%;}
+.people-profile-banner h1 {font-size: 40px; line-height: 44px; margin-bottom: 25px; color: #fff;}
+.people-profile-banner .profile-position {display:block; text-transform: uppercase; color:#00a7b5; font-weight: 800; letter-spacing: 1px; margin: 0 0 29px 0;}
+.people-profile-banner .button {color: #fff;}
+.people-profile-banner span a {font-weight: 600; color:#fff;}
+
+.profile-details {margin-bottom: 36px;}
+.profile-details span a:hover {color:#00a7b5;}
+.profile-details span.lrow {display: block; padding:0 0 0 26px; position: relative; margin: 0 0 8px 0;}
+.profile-details span.lrow img {max-width: 18px; height: auto; position: absolute; left: 0; top: 3px;}
+.profile-details span.lrow:first-child img {top:5px;}
+.profile-details span.lrow:last-child img {max-width: 14px;}
+
+
+
+
+.bucket-cnt { float:left; width:100%; position: relative; padding: 23px 0 0 0; display: none;}
+.side-head {float: left; width: 100%; padding:15px 45px 15px 23px; position: relative; cursor: pointer;}
+.side-head .h4 {text-transform: uppercase; margin: 0; font-size: 16px;}
+
+.side-head.drophead:after {width: 13px; height:9px; right:27px; background: url('../images/caret.png') no-repeat; content: ""; display: inline-block; position: absolute; top: 0; bottom: 0; margin: auto auto; transition: all 0.5s ease 0s;	-webkit-transition: all 0.5s ease 0s;	-moz-transition: all 0.5s ease 0s; -o-transition: all 0.5s ease 0s; background-size: 13px 9px;}
+.buckets.menu-nav.active .drophead::after {transform: rotate(180deg); transition: all 0.5s ease 0s; -webkit-transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease 0s; -o-transition: all 0.5s ease 0s;}
+
+.buckets.menu-nav {background: #fff; float: left; width: 100%;}
+.buckets.menu-nav .bucket-cnt:before {background-image: linear-gradient(to right,#7c878e 35%, rgba(193, 198, 199, 0) 0%); background-position: top left; background-size: 7px 2px; background-repeat: repeat-x; content: ""; display: block; width:calc(100% - 14%); height:2px; position: absolute; left:0; top:-2px; right: 0; margin: auto;}
+.buckets.menu-nav ul { margin:0 0 23px 0; padding: 0;}
+.buckets.menu-nav ul li { z-index:1; position:relative; margin-bottom: 11px;}
+.buckets.menu-nav ul li:before {display: none;}
+.buckets.menu-nav ul li a { display:table; width:100%; padding: 0 23px; text-decoration: none!important;}
+.buckets.menu-nav ul li a:hover span.nav-cnt strong, .buckets.menu-nav ul li.active a span.nav-cnt strong{color: #c8102e;}
+.buckets.menu-nav ul li a .nav-thumb { display:table-cell; vertical-align:middle; width:72px; height:57px; padding:1px 16px 0 0;}
+.buckets.menu-nav ul li a .nav-thumb img {border-radius: 50%; width: 100%; height: 100%;}
+.buckets.menu-nav ul li a .nav-cnt { display:table-cell; vertical-align:middle}
+.buckets.menu-nav ul li a span.nav-cnt{ color:#051c2c; font-size:20px; line-height:24px;}
+.buckets.menu-nav ul li a span.nav-cnt strong { font-weight:700; display: block;}
+.buckets.menu-nav ul li a span.nav-cnt span {display: block; text-transform: uppercase; font-size: 12px; font-family: sweet-sans-pro, sans-serif; color: #7c878e; font-weight: 600; line-height: 16px;}
+.buckets.menu-nav ul li a:hover span.nav-cnt b, .buckets.menu-nav ul li.active a span.nav-cnt b, .buckets.menu-nav ul li.unread a span.nav-cnt b, .buckets.menu-nav ul li.unread a:hover span.nav-cnt b{ font-weight:800;}
+
+.admins {padding:0 23px 32px; float: left; width: 100%; margin-top: -3px;}
+.admin-row {clear:both; margin:18px 0 0 0;}
+.admin-row:first-child {margin: 0;}
+.admin-row span {display: block;}
+.admin-row span.admin {color: #051C2C; font-size: 20px; line-height: 22px; font-weight: 700; margin-bottom: -3px;}
+.admin-row span.admin-pos {font-size: 12px; text-transform: uppercase; color: #7C878E; line-height: 16px; font-family: sweet-sans-pro, sans-serif; margin-bottom: 3px;}
+.admin-row span.admin-contact {font-size: 18px; font-family: sweet-sans-pro, sans-serif; font-weight: 600;}
+
+/*-- OUR PEOPLE PROFILE PAGE CSS ENDS HERE --*/
+
+
+
+
+/*-- media quries starts here --*/
+@media only screen and (max-width:1200px) {
+	.people-profile-left {width:55%;}
+	.people-profile-right {width: 42%;}
+	.people-profile-right .profile-thumb::after {width:413px; background-size: 413px auto;}
+}
+
+
+@media only screen and (max-width:1023px) and (min-width:768px) {
+
+	
+	/* OUR PEOPLE PROFILE PAGE CSS STARTS HERE */
+	.buckets.menu-nav .bucket-cnt:before {width: calc(100% - 7%);}
+  /* OUR PEOPLE PROFILE PAGE CSS ENDS HERE */
+}
+
+@media only screen and (max-width:1023px) {
+	
+	
+	/*-- OUR PEOPLE PROFILE PAGE CSS STARTS HERE --*/
+	.single-people #main-header {background: #212a33;}
+	.single-people .signup {padding: 32px 0 64px 0;}
+	.people-profile-left {width:100%; order:2;}
+	.people-profile-right {width: 100%; order:1;}
+	.people-profile-right .profile-thumb {position: inherit; bottom: inherit; width: 260px; height: 260px; margin: 0 0 30px 0;}
+	.people-profile-right .profile-thumb:after {bottom: -18px; background-size: 260px auto; width: 260px;}
+	.people-profile-banner {padding: 50px 0;}	
+	/*-- OUR PEOPLE PROFILE PAGE CSS ENDS HERE --*/
+	
+	
+  
+}
+
+@media only screen and (max-width:767px) {
+
+	
+	/* OUR PEOPLE PROFILE PAGE CSS STARTS HERE */
+	.single-people #main-header {background: #212a33;}
+	.people-profile-right .profile-thumb {width:188px; height: 188px; margin:0 0 27px 0; z-index: 1;}
+	.people-profile-right .profile-thumb:after {bottom: -8px; background-size: 197px auto; width:197px; height: 17px; background: url("images/profile-Shadow-mobile.png") 0 0 no-repeat;}
+	.people-profile-banner h1 {font-size: 32px; line-height: 40px; padding-right: 10px; margin-bottom: 21px;}
+	.people-profile-banner {padding:32px 0;}	
+	.people-profile-banner .button {width: 100%;}
+	.people-profile-banner .profile-position {margin: 0 0 25px 0;}
+	
+	
+	/* OUR PEOPLE PROFILE PAGE CSS ENDS HERE */
+	
+	
+	
+}

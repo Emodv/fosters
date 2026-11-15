@@ -1,0 +1,123 @@
+﻿
+
+/*--- OUR PEOPLE LANDING PAGE CSS GOES HERE ---*/
+/* Header */
+.post-type-archive-people #main-header {background: #ffffff;}
+.post-type-archive-people ul.selectBox-options {padding:2px 0 0 0;}
+.post-type-archive-people .selectBox-dropdown, .post-type-archive-people .selectBox-dropdown:focus {border:0  none;}
+.post-type-archive-people .selectBox-dropdown .selectBox-label {padding: 13px 48px 11px 14px;}
+.people-search {float: left; width: 100%; background-color: rgba(5, 28, 44, 0.1); padding:71px 0 166px;}
+.search-people-main {float: left; width: 100%;}
+.search-people-top  {margin:0 0 20px 0;}
+.search-people-main .filter-search input[type="search"] {background:transparent; border: solid 1px #495968; border-radius: 1px; padding:10px 45px 11px 15px;}
+.search-people-main .filter-search form {position: relative;}
+.search-people-left {width:274px; margin-right: 20px;}
+.search-people-right {width: calc(100% - 294px);}
+.search-people-right .toggle-head {display: none;}
+
+.search-by {background: #fff; float: left; width:100%; text-transform: uppercase; padding:12px 16px; font-family: sweet-sans-pro, sans-serif; margin-bottom: 48px;}
+.sb {font-size: 14px; font-weight: 800; letter-spacing: 1px; color: #495968; margin-right: 10px;}
+.search-alpha {font-size: 20px; color: #afc0cb;}
+.search-alpha span a {color:#051c2c; font-weight: 800;}
+.search-alpha span a:hover, .search-alpha span a.current {color: #c8102e;}
+.search-alpha span {display: inline-block; margin:0 7.7px;  font-weight: 800;}
+
+.tag {border-radius: 16px; background-color:#495968; font-weight: 800; font-family: sweet-sans-pro, sans-serif;  letter-spacing: 1px; color:#ffffff; padding:3px 3px 2px 10px; display:inline-block; font-size:14px; margin:0 0 5px 8px; text-transform: uppercase;}
+.tag:first-child {margin-left: 0;}
+.tag:hover {color: #fff; opacity: 0.8;}
+.close-tag { margin:0 0 0 9px; width: 24px; height: 24px; background: #fff; border-radius: 50%; display: inline-block; text-align: center; line-height: 20px; vertical-align: middle; top: -2px; position: relative;}
+
+.post-type-archive-people .selectBox-dropdown {background: #ffffff; border-radius: 1px; width:100%!important;}
+.post-type-archive-people .cta-left h2 {max-width: inherit;}
+.post-type-archive-people .cta-left h2 strong:before {margin-top: 20px;}
+.post-type-archive-people .signup {padding: 56px 0 96px 0;}
+
+.our-people-main {float: left; width: 100%; padding:60px 0 0; margin-top: -150px;}
+.people-lists {justify-content: center;}
+.people-list { margin:0 0 53px 40px; width: 22.2%;}
+.people-list:nth-child(4n+1) {margin-left: 0;}
+.people-list .people-thumbnail {width: 184px; height: 184px; position: relative; margin-bottom: 18px;}
+.people-list .people-thumbnail img { width:100%; transition: opacity .5s ease-in-out; -moz-transition: opacity .5s ease-in-out; -webkit-transition: opacity .5s ease-in-out; -o-transition: opacity .5s ease-in-out; height: 100%;} 
+.people-list .people-thumbnail img:hover {opacity: 0.8;}
+.people-list .people-thumbnail:after {content: ""; background:url("../images/shadow.png") 0 0 no-repeat; display: block; position: absolute; bottom: -7px; width:184px; height: 16px; left: 0; right: 0; margin: auto; z-index: -1; background-size: 184px auto;}
+
+.people-list h2 {line-height: 32px; font-weight: 700; font-family: mrs-eaves-xl-serif, serif; font-size: 28px; letter-spacing: normal; margin-bottom: 8px;}
+.people-list span.position {display: block; text-transform: uppercase; letter-spacing: 1px; color: #c8102e; font-size: 14px; line-height: 20px; font-family: sweet-sans-pro, sans-serif; font-weight: 800; margin-bottom: 10px;}
+.people-list span {display: block; font-size: 14px; font-family: sweet-sans-pro, sans-serif; line-height: 20px; margin: 0 0 6px 0;}
+.people-list span a {font-weight: normal; color:#051c2c;}
+.people-list span a:hover {color:#c8102e;}
+.people-list span.lrow {display: block; padding: 0 0 0 21px; position: relative;}
+.people-list span.lrow img {max-width: 14px; height: auto; position: absolute; left: 0; top: 4px;}
+.people-list span.lrow:first-child img {top:6px;}
+.people-list span.lrow:last-child img {max-width: 11px;}
+
+/*--  OUR PEOPLE LANDING PAGE CSS ENDS HERE --*/
+
+
+
+
+/*-- media quries starts here --*/
+
+@media only screen and (max-width:1200px) {
+	
+	/*-- OUR PEOPLE PAGE CSS STARTS HERE --*/
+	.people-list {width: 21.95%;}
+	.search-alpha span:first-child { margin-left: 0;}
+	/*-- OUR PEOPLE PAGE CSS ENDS HERE --*/
+}
+
+@media only screen and (max-width:1140px) {
+	.search-alpha {display: flex; justify-content: space-between; width: 100%;}
+	.search-alpha span {margin: 0 9px;}
+.search-alpha span:last-child {margin-right: 0;}
+}
+
+@media only screen and (max-width:1023px) and (min-width:768px) {
+
+	
+	/*-- OUR PEOPLE PAGE CSS STARTS HERE --*/
+	.people-list, .people-list:nth-child(4n+1) {width:29.4%; margin: 0 0 53px 40px;}
+	.people-list:nth-child(3n+1) {margin-left: 0;}
+	.search-alpha {font-size: 18px;}
+	.search-alpha span {margin: 0 3.8px;}
+	.search-people-left {width: 100%; margin-right: 0; margin-bottom: 20px;}
+	.search-people-right {width: 100%;}
+	/*-- OUR PEOPLE PAGE CSS ENDS HERE --*/
+	
+	
+}
+@media only screen and (max-width:1023px) {
+.people-list h2 {word-break: break-word;}
+}
+
+@media only screen and (max-width:767px) {
+	.people-search h1 {font-size: 40px; line-height: 44px; margin-bottom: 32px;}
+	/* OUR PEOPLE PAGE CSS STARTS HERE */
+	.search-people-left {width: 100%; margin-right: 0; margin-bottom: 20px;}
+	.search-people-right {width: 100%;}
+	.search-by {display: none;}
+	.search-people-right {border-radius: 1px; border: solid 1px #495968; padding:0 19px 0;}
+	.toggle-head {justify-content: space-between; display: flex!important; align-items: center; min-height: 48px; }
+	.toggle-head .toggle-heading {text-transform: uppercase; font-weight: 900; font-family: sweet-sans-pro, sans-serif; font-size: 14px; letter-spacing: 1px; color: #495968;}
+	.plus-minus-toggle {cursor: pointer; height: 19px; position: relative; width: 19px;}
+    .plus-minus-toggle:before, .plus-minus-toggle:after {background: #c8102e; content: ''; height: 3px; left: 0; position: absolute;
+  top:8px; width: 19px; transition: transform 500ms ease;}
+    .plus-minus-toggle:after {transform-origin: center; transform: rotate(90deg); display: none;}
+    .plus-minus-toggle:before {transform: rotate(180deg);}
+	.search-people-right.close .plus-minus-toggle:after {display: block;}
+	.tag {padding: 3px 3px 2px 9px; margin:0 8px 8px 0;}
+	.close-tag {margin: 0 0 0 4px;}
+	.people-search {padding:32px 0 136px;}	
+	.search-filter { margin-top:11px;}
+	
+	.people-list, .people-list:nth-child(4n+1), .people-list:nth-child(3n+1) {width:100%; margin:0 0 38px 0; padding: 0 9px;}
+	.people-list .people-thumbnail {margin-bottom: 19px;}
+	.people-list span.position {margin-bottom: 11px;}
+	.people-list span {margin: 0 0 7px 0;}
+	
+	.post-type-archive-people .signup {padding:24px 0 96px 0;}
+	/* OUR PEOPLE PAGE CSS ENDS HERE */
+	
+	
+	
+}

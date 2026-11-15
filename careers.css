@@ -1,0 +1,34 @@
+﻿
+/* CAREERS PAGE CSS STARTS HERE */
+.category-careers .hero_banner_section .banner-txt p {margin-bottom:0;}
+.category-careers .intro-cnt {margin-bottom: 33px;}
+.category-careers .signup {padding:96px 0;}
+
+.values-main {float:left; width:100%; padding: 0 0 96px 0;}
+.values {background: #fff; padding: 36px 32px 0;}
+.values-grid {width: 22%; margin:30px 0 7px 4%;}
+.values-grid:nth-child(1), .values-grid:nth-child(2), .values-grid:nth-child(3), .values-grid:nth-child(4) {margin:-70px 0 7px 4%;}
+.values-grid:nth-child(4n+1) {margin-left: 0;}
+.values-thumb {height: 58px; line-height: 58px; margin-bottom: 9px;}
+.values-grid .h4 {margin-bottom: 9px;}
+.values-grid p { font-size: 16px; line-height: 20px;}
+/* CAREERS PAGE CSS ENDS HERE */
+
+@media only screen and (max-width:1023px) and (min-width:768px) {
+.values-grid .h4 {line-height: 22px; margin-bottom: 10px;}
+}
+
+@media only screen and (max-width:767px) {
+	.category-careers .intro {padding: 32px 0 37px;}
+	
+	.values-main {padding: 0 0 48px 0;}
+	.values-thumb {margin-bottom: 9px;}
+	.values-grid, .values-grid:nth-child(1), .values-grid:nth-child(2), .values-grid:nth-child(3), .values-grid:nth-child(4) {width:100%!important; margin:0 0 9px 0;}
+	.values-grid:first-child {margin:-71px 0 9px 0;}
+	.values {padding:36px 36px 7px;}
+	
+	.category-careers .signup {padding: 48px 0 64px;}
+}
+
+
+

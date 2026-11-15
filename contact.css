@@ -1,0 +1,212 @@
+﻿.contact-container {
+    float: left;
+    width: 100%;
+    padding: 80px 0 21px;
+}
+.contact-main {
+    width: 100%;
+}
+.contact-cnt {
+    max-width: 690px;
+    width: 100%;
+}
+.contact-cnt p {
+    margin-bottom: 32px;
+}
+.contact-cnt small {
+    margin: 0 0 16px 0;
+    font-weight: normal;
+}
+.contact-main h1 {
+    margin-bottom: 22px;
+}
+.contact-main hr {
+    background-image: linear-gradient(to right, #7c878e 35%, rgba(255, 255, 255, 0) 0);
+    background-position: left;
+    background-size: 7.8px 2px;
+    background-repeat: repeat-x;
+    width: 66px;
+    height: 2px;
+    background-color: transparent;
+    margin-bottom: 25px;
+}
+.contact-info-main {
+    float: left;
+    width: 100%;
+    padding: 89px 0;
+    background: rgba(255, 255, 255, 0.5);
+}
+.contact-info {
+    margin: 40px 0 0 0;
+}
+.contact-info .contact-grid {
+    margin: 0 0 0 5.4%;
+    width: 45.8%;
+}
+.contact-info .contact-grid:first-child {
+    margin: 0;
+}
+.contact-info .contact-thumbnail {
+    width: 100%;
+    margin: 0 0 37px 0;
+}
+.contact-info .contact-thumbnail img {
+    width: 100%;
+}
+.contact-info address {
+    margin: 0;
+    position: relative;
+    line-height: 20px;
+    font-family: sweet-sans-pro, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: normal;
+    max-width: 310px;
+}
+.contact-info address .h4 {
+    text-transform: uppercase;
+    margin-bottom: 11px;
+}
+.contact-info address span {
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+}
+.contact-info address span.ofc-location {
+    font-weight: 900;
+    color: #00a7b5;
+    text-transform: uppercase;
+    line-height: 26px;
+}
+.contact-info address p {
+    margin-bottom: 10px;
+}
+.contact-info address .lrow {
+    padding: 0 0 0 21px;
+}
+.contact-info address .lrow img {
+    width: auto;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: auto;
+    position: absolute;
+    left: 0;
+    max-width: 14px;
+}
+.page-template-contact .cta-form {
+    padding: 94px 0 64px;
+}
+.contact-btn .button {
+    margin-right: 20px;
+}
+
+
+.contact-right div.frm_forms{padding: 27px 30px 18px; background-color: #fff;}
+.contact-right div.frm_forms .frm_form_field{margin-bottom: 20px !important;}
+.captcha-wrapper{width: 100%; display: flex; align-items: center; flex-direction: row-reverse; flex-wrap: wrap;}
+
+.frm_style_formidable-style.with_frm_style .captcha-wrapper .frm_submit{width: 130px; text-align: left;}
+.frm_style_formidable-style.with_frm_style .captcha-wrapper .frm_form_field {width: calc(100% - 130px); margin-bottom: 0 !important;}
+.frm_style_formidable-style.with_frm_style .captcha-wrapper .frm-g-recaptcha{height: 78px; overflow: hidden;}
+.frm_style_formidable-style.with_frm_style .captcha-wrapper .frm-g-recaptcha iframe{margin: 0;}
+.frm_style_formidable-style.with_frm_style .captcha-wrapper .frm-g-recaptcha div{margin-left: auto;}
+
+.frm_style_formidable-style.with_frm_style .captcha-wrapper #frm_field_72_container {
+    width: 130px;
+  }
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .contact-left{width: 540px; margin-right: 47px;}
+    .contact-right{width: calc(100% - 587px); margin-top: 160px;}
+    .contact-right div.frm_forms .frm_form_field.frm_half{width: calc(50% - 10px); margin-left: 10px; margin-right: 10px;}
+    .contact-right div.frm_forms .frm_form_field.frm_half.frm_first{margin-left: 0;}
+    .contact-right div.frm_forms .frm_form_field.frm_half.frm_last{margin-right: 0;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .contact-left{width: 440px;}
+    .contact-right{width: calc(100% - 487px);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .contact-main{display: block;}
+    .contact-left{margin-bottom: 50px;}
+    .contact-right div.frm_forms .frm_form_field.frm_half{width: calc(50% - 10px); margin-left: 10px; margin-right: 10px;}
+    .contact-right div.frm_forms .frm_form_field.frm_half.frm_first{margin-left: 0;}
+    .contact-right div.frm_forms .frm_form_field.frm_half.frm_last{margin-right: 0;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .contact-main{display: block;}
+    .captcha-wrapper{display: block;}
+    .frm_style_formidable-style.with_frm_style .captcha-wrapper .frm_form_field{width: 100%; margin-bottom: 20px !important;}
+    .frm_style_formidable-style.with_frm_style .captcha-wrapper .frm_submit{width: auto;}
+}
+
+@media only screen and (max-width: 1200px) {
+    .contact-info .contact-grid {
+        width: 47.3%;
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .contact-container {
+        padding: 51px 0 21px;
+    }
+    .page-template-contact .cta-form {
+        padding: 39px 0 16px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .contact-btn .button {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .contact-container {
+        padding: 32px 0 16px;
+    }
+    .contact-main small {
+        margin: 0 0 17px 0;
+    }
+    .contact-main h1 {
+        font-size: 40px;
+        line-height: 44px;
+        margin-bottom: 19px;
+        margin-right: 95px;
+    }
+    .contact-main hr {
+        margin-bottom: 25px;
+    }
+    .contact-cnt p {
+        margin-bottom: 24px;
+    }
+    .contact-info-main {
+        background: 0 0;
+        padding: 25px 0 24px;
+    }
+    .contact-info {
+        margin: 30px 0 53px;
+        display: block;
+    }
+    .contact-info address .h4 {
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+    .contact-info .contact-grid,
+    .contact-info .contact-grid:first-child {
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+    .contact-info .contact-thumbnail {
+        margin: 0 0 23px 0;
+    }
+    .page-template-contact .cta-form {
+        padding: 31px 0 40px;
+    }
+    .page-template-contact .signup {
+        padding: 64px 0 64px;
+    }
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+.frm_style_formidable-style.with_frm_style .captcha-wrapper #frm_field_72_container {
+    width: 100%;
+  }
+
+}

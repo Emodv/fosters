@@ -1,0 +1,95 @@
+﻿.page-template-expertise .hero_banner_section .banner-txt {
+    padding: 20px 50px 20px 0;
+}
+.page-template-expertise .single-testimonial {
+    padding: 81px 0 88px;
+}
+.page-template-expertise .foster-icon {
+    display: block;
+    margin: 0 0 39px 0;
+}
+.page-template-expertise .cta-form {
+    padding: 96px 0 65px;
+}
+.page-template-expertise .feature-insights {
+    padding: 104px 0 17px;
+}
+.page-template-expertise .feature-insights-main .heading-left h3 {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.faq-inner{
+    clear: both;
+    padding: 68px 0 127px;
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-template-expertise .hero_banner_section .banner-txt {
+        padding: 35px 40px 43px;
+        max-width: 600px;
+    }
+    .page-template-expertise .hero_banner_section hr {
+        margin-bottom: 17px;
+        margin-top: 7px;
+    }
+    .page-template-expertise .hero_banner_section p {
+        margin-bottom: 26px;
+    }
+    .page-template-expertise .single-testimonial {
+        padding: 67px 0 2px;
+    }
+    .page-template-expertise .foster-icon {
+        margin: 24px 0 17px 0;
+    }
+    .page-template-expertise .cta-form {
+        padding: 39px 0 16px;
+    }
+    .page-template-expertise .feature-insights {
+        padding: 80px 0 6px;
+    }
+    .page-template-expertise .feature-insights-main .heading-left h3 {
+        text-transform: none;
+        margin: 12px 0 0 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .page-template-expertise .hero_banner_section .banner-right .banner-img .mobile {
+        margin-right: -1px;
+    }
+    .page-template-expertise .hero_banner_section {
+        margin: 0 0 39px 0;
+    }
+    .page-template-expertise .hero_banner_section .banner-txt {
+        padding: 20px;
+    }
+    .page-template-expertise .hero_banner_section hr {
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
+    .page-template-expertise .hero_banner_section p {
+        margin-bottom: 20px;
+    }
+    .page-template-expertise .single-testimonial {
+        padding: 77px 0 92px;
+    }
+    .page-template-expertise .single-testimonial .author-info span.author-designation {
+        line-height: 16px;
+    }
+    .page-template-expertise .single-testimonial-cnt p strong:before {
+        margin-top: 14px;
+    }
+    .page-template-expertise .foster-icon {
+        margin: -4px 0 -1px 0;
+    }
+    .page-template-expertise .cta-form {
+        padding: 31px 0 40px;
+    }
+    .page-template-expertise .feature-insights-main .heading-left h3 {
+        text-transform: none;
+        margin: 0 0 19px 0;
+    }
+    .page-template-expertise .feature-insights {
+        padding: 58px 0 19px;
+    }
+}

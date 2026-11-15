@@ -1,0 +1,52 @@
+.lawyer-cta-section{background-color: #051c2c; color: #ffffff;}
+.lawyer-cta-main{padding: 25px 35px 34px 35px;}
+.lawyer-cta-left{font-size: 16px; line-height: 20px;}
+.template-single-inner .template-single-content .lawyer-cta-left h2{margin-bottom: 8px; color: #fff;}
+
+.mail-phone-wrapper{margin-top: 35px;}
+.email-btn-text .button{color: #ffffff;}
+.phone-text{font-size: 18px; line-height: 24px;}
+
+.lawyer-cta-right div.frm_forms .frm_form_fields .form-field{margin-bottom: 20px !important;}
+.lawyer-cta-right .frm_style_formidable-style.with_frm_style .captcha-wrapper .frm-g-recaptcha{height: 78px; overflow: hidden;}
+.lawyer-cta-right .frm_style_formidable-style.with_frm_style .captcha-wrapper .frm-g-recaptcha iframe{margin: 0;}
+.lawyer-cta-right .frm_style_formidable-style.with_frm_style .captcha-wrapper .frm-g-recaptcha div{margin-left: auto;}
+
+.lawyer-cta-right .frm_style_formidable-style.with_frm_style .frm_submit button.frm_button_submit{
+	color: #ffffff;
+}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1300px){
+	.lawyer-cta-section{min-width: 1160px;}
+	.lawyer-cta-left{width: 510px; margin-right: 50px;}
+	.lawyer-cta-right{width: calc(100% - 560px); padding-top: 17px;}
+}
+@media only screen and (min-width: 768px) {
+	.email-btn-text{width: 100px; margin-right: 20px;}
+	.phone-text{width: calc(100% - 120px);}
+
+	.lawyer-cta-main{margin: 91px 0 89px;}
+    .lawyer-cta-right div.frm_forms .frm_form_field.frm_half{width: calc(50% - 10px); margin-left: 10px; margin-right: 10px;}
+    .lawyer-cta-right div.frm_forms .frm_form_field.frm_half.frm_first{margin-left: 0;}
+    .lawyer-cta-right div.frm_forms .frm_form_field.frm_half.frm_last{margin-right: 0;}
+	.lawyer-cta-right .frm_style_formidable-style.with_frm_style .captcha-wrapper{width: 100%; display: flex; flex-wrap: wrap; flex-direction: row-reverse; align-items: center;}
+	.lawyer-cta-right .frm_style_formidable-style.with_frm_style .captcha-wrapper .frm_submit{width: 130px; text-align: left;}
+	.lawyer-cta-right .frm_style_formidable-style.with_frm_style .captcha-wrapper .frm_form_field {width: calc(100% - 130px); margin-bottom: 0 !important;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+	.lawyer-cta-section .lawyer-cta-main{display: block; padding: 34px 20px 44px;}
+	.lawyer-cta-left{margin-bottom: 60px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+	.lawyer-cta-section .lawyer-cta-main{display: block; padding: 34px 0 44px;}
+	.lawyer-cta-left{margin-bottom: 60px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+	.lawyer-cta-section .lawyer-cta-main{display: block; padding: 34px 0 44px;}
+	.lawyer-cta-left{margin-bottom: 45px;}
+	.mail-phone-wrapper{display: block;}
+	.email-btn-text{margin-bottom: 15px;}
+	.lawyer-cta-right .frm_style_formidable-style.with_frm_style .captcha-wrapper .frm-g-recaptcha div{margin-left: 0;}
+	.lawyer-cta-right .frm_style_formidable-style.with_frm_style .captcha-wrapper{display: block;}
+}
