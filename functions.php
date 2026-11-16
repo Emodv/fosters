@@ -52,7 +52,7 @@ add_filter( 'upload_mimes', 'my_custom_mime_types' );
 
 function fosters_register_styles() {
     global $post;
-	$theme_version = rand(100,10000);
+	$theme_version = wp_get_theme()->get( 'Version' );
     //$p_cache = get_the_cache_key();
 	wp_enqueue_style( 'fosterlaw-style', get_stylesheet_uri(), array(), $theme_version );
 	if(is_page(15)){
@@ -79,7 +79,7 @@ function fosters_register_styles() {
 
     wp_enqueue_script( 'load-more', get_theme_file_uri( '/js/load-more.js' ), array( 'jquery' ), '?ver=09042021' );
 
-    wp_enqueue_script( 'custom-script', get_theme_file_uri( '/js/script.js' ), array( 'jquery' ), rand() );
+    wp_enqueue_script( 'custom-script', get_theme_file_uri( '/js/script.js' ), array( 'jquery' ), $theme_version );
 
     wp_enqueue_script( 'slick-script', get_theme_file_uri( '/js/slick.min.js' ), array( 'jquery' ), '?ver=09042021' );
     wp_enqueue_style( 'slick-style', get_theme_file_uri( '/css/slick.css' ), array(), $theme_version );
@@ -332,7 +332,7 @@ function lawyercta_func() {
              $ctacode .= $insight_cta_description;   
         } 
         $ctacode .='<div class="mail-phone-wrapper flex flex-vcenter">';
-        if(!empty($insight_cta_button_text & $insight_cta_button_link)){
+        if(!empty($insight_cta_button_text) && !empty($insight_cta_button_link)){
             $ctacode .='<div class="email-btn-text"><a class="button" href="mailto:'.$insight_cta_button_link.'">'.$insight_cta_button_text.'</a></div>'; 
         }
         $ctacode .='<div class="phone-text">'.$insight_cta_telephone_text.'<a href="tel:'.$insight_cta_telephone_number.'">&nbsp;'.$insight_cta_telephone_number.'</a></div>';
@@ -386,7 +386,7 @@ function get_the_banner($postpageid){
                            $banner .= '<hr>'.$default_banner_description;
                         } 
                        
-                        if(!empty($default_banner_button_text & $default_banner_button_link )){
+                        if(!empty($default_banner_button_text) && !empty($default_banner_button_link)){
                            $banner .='<a href="'.$default_banner_button_link.'" class="button">'.$default_banner_button_text.'</a>';
                         }
                     $banner .='</div>';
