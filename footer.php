@@ -76,7 +76,7 @@
         <div class="container">
             <div class="ftr-btmcnt flex">
                 <div class="copy alignleft">
-                  <p>© Copyright <?php echo date('Y');  ?> Fosters Law LLP. All rights reserved.</p>
+                  <p>© Copyright <?php echo date('Y');  ?> Fosters Law LLP. All rights reserved. <a href="#" style="margin-left: 12px; color: inherit; text-decoration: underline;">Back to top</a></p>
                 </div>
                 <?php 
                 $copyright_menu = get_field('copyright_menu','options');
