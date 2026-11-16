@@ -52,7 +52,7 @@ add_filter( 'upload_mimes', 'my_custom_mime_types' );
 
 function fosters_register_styles() {
     global $post;
-	$theme_version = rand(100,10000);
+	$theme_version = filemtime( get_stylesheet_directory() . '/style.css' );
     //$p_cache = get_the_cache_key();
 	wp_enqueue_style( 'fosterlaw-style', get_stylesheet_uri(), array(), $theme_version );
 	if(is_page(15)){
@@ -79,7 +79,7 @@ function fosters_register_styles() {
 
     wp_enqueue_script( 'load-more', get_theme_file_uri( '/js/load-more.js' ), array( 'jquery' ), '?ver=09042021' );
 
-    wp_enqueue_script( 'custom-script', get_theme_file_uri( '/js/script.js' ), array( 'jquery' ), rand() );
+    wp_enqueue_script( 'custom-script', get_theme_file_uri( '/js/script.js' ), array( 'jquery' ), filemtime( get_theme_file_path( '/js/script.js' ) ) );
 
     wp_enqueue_script( 'slick-script', get_theme_file_uri( '/js/slick.min.js' ), array( 'jquery' ), '?ver=09042021' );
     wp_enqueue_style( 'slick-style', get_theme_file_uri( '/css/slick.css' ), array(), $theme_version );
