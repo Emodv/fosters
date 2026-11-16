@@ -43,6 +43,7 @@ src="https://www.facebook.com/tr?id=4663841813707818&ev=PageView&noscript=1"
 </head>
 
 <body <?php body_class(); ?>>
+<a class="skip-to-content" href="#mainContent">Skip to main content</a>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTBD5LK"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

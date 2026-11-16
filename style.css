@@ -4861,3 +4861,24 @@ select:focus-visible,
   outline: 2px solid #c8102e;
   outline-offset: 3px;
 }
+
+/* Accessibility: keyboard-only skip navigation and visible focus indicators.
+   These rules do not change the normal pointer/touch presentation. */
+.skip-to-content {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 10000;
+  padding: 12px 18px;
+  background: #051c2c;
+  color: #fff;
+  transform: translateY(-180%);
+}
+.skip-to-content:focus {
+  transform: translateY(0);
+  color: #fff;
+}
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 3px solid #00a7b5;
+  outline-offset: 3px;
+}
